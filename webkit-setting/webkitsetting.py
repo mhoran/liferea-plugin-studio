@@ -54,6 +54,7 @@ WEBVIEW_PROPERTY_TYPE = {
             "enable-smooth-scrolling",
             "enable-fullscreen",
             "auto-load-images",
+            "media-playback-requires-user-gesture",
             ],
         int: ["minimum-font-size"],
         str: ["user-agent"],
@@ -87,6 +88,7 @@ CONFIG_DEFAULTS = {
         "enable-smooth-scrolling": "False",
         "enable-fullscreen": "False",
         "auto-load-images": "True",
+        "media-playback-requires-user-gesture": "False",
         "minimum-font-size": "7",
         "user-agent": "",
 
@@ -159,9 +161,9 @@ class ConfigManager(ConfigParser):
             "$HOME/.local/share/liferea/plugin-data/webkitsetting")
 
     def __init__(self, config_dir=None):
-        ConfigParser.__init__(self, CONFIG_DEFAULTS)
         self.changed = False # Flag for self.config changed status
         self.delay_save_timeout = 10
+        ConfigParser.__init__(self, CONFIG_DEFAULTS)
 
         if not os.path.exists(self.cache_dir):
             os.makedirs(self.cache_dir)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.18.3 -->
+<!-- Generated with glade 3.22.1 -->
 <interface>
   <requires lib="gtk+" version="3.12"/>
   <object class="GtkAdjustment" id="adjustment_cache_size">
@@ -23,6 +23,9 @@
   <object class="GtkOffscreenWindow" id="offscreenwindow2">
     <property name="can_focus">False</property>
     <child>
+      <placeholder/>
+    </child>
+    <child>
       <object class="GtkGrid" id="grid_soup">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
@@ -37,12 +40,12 @@
             <property name="valign">center</property>
             <property name="hexpand">False</property>
             <property name="vexpand">False</property>
-            <property name="xalign">1</property>
             <property name="label" translatable="yes">Max Conns:</property>
             <property name="use_underline">True</property>
             <property name="mnemonic_widget">spinbutton_max_conns</property>
             <property name="ellipsize">middle</property>
             <property name="lines">1</property>
+            <property name="xalign">1</property>
           </object>
           <packing>
             <property name="left_attach">0</property>
@@ -57,12 +60,12 @@
             <property name="valign">center</property>
             <property name="hexpand">False</property>
             <property name="vexpand">False</property>
-            <property name="xalign">1</property>
             <property name="label" translatable="yes">Max Conns Per Host:</property>
             <property name="use_underline">True</property>
             <property name="mnemonic_widget">spinbutton_max_conns_per_host</property>
             <property name="ellipsize">middle</property>
             <property name="lines">1</property>
+            <property name="xalign">1</property>
           </object>
           <packing>
             <property name="left_attach">0</property>
@@ -106,10 +109,10 @@
             <property name="visible">True</property>
             <property name="can_focus">False</property>
             <property name="tooltip_text" translatable="yes">User persistent disk cache</property>
-            <property name="xalign">1</property>
             <property name="label" translatable="yes">Disk Cache:</property>
             <property name="ellipsize">middle</property>
             <property name="lines">1</property>
+            <property name="xalign">1</property>
           </object>
           <packing>
             <property name="left_attach">0</property>
@@ -135,8 +138,8 @@
           <object class="GtkLabel" id="label10">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="xalign">1</property>
             <property name="label" translatable="yes">Cache Size (MB):</property>
+            <property name="xalign">1</property>
           </object>
           <packing>
             <property name="left_attach">0</property>
@@ -164,10 +167,10 @@
             <property name="visible">True</property>
             <property name="can_focus">False</property>
             <property name="tooltip_text" translatable="yes">Save web cookies to disk</property>
-            <property name="xalign">1</property>
             <property name="label" translatable="yes">Persistent Cookies:</property>
             <property name="use_underline">True</property>
             <property name="mnemonic_widget">checkbutton_enable_persistent_cookie</property>
+            <property name="xalign">1</property>
           </object>
           <packing>
             <property name="left_attach">0</property>
@@ -194,10 +197,10 @@
             <property name="visible">True</property>
             <property name="can_focus">False</property>
             <property name="tooltip_text" translatable="yes">Sent the Do Not Track (DNT) header</property>
-            <property name="xalign">1</property>
             <property name="label" translatable="yes">Do Not Track:</property>
             <property name="use_underline">True</property>
             <property name="mnemonic_widget">checkbutton_enable_persistent_cookie</property>
+            <property name="xalign">1</property>
           </object>
           <packing>
             <property name="left_attach">0</property>
@@ -231,6 +234,9 @@
   <object class="GtkOffscreenWindow" id="offscreenwindow1">
     <property name="can_focus">False</property>
     <child>
+      <placeholder/>
+    </child>
+    <child>
       <object class="GtkGrid" id="grid_webview">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
@@ -246,12 +252,12 @@
             <property name="margin_right">4</property>
             <property name="hexpand">False</property>
             <property name="vexpand">False</property>
-            <property name="xalign">1</property>
             <property name="label" translatable="yes">Mini Font Size:</property>
             <property name="use_underline">True</property>
             <property name="mnemonic_widget">spinbutton_minimum_font_size</property>
             <property name="ellipsize">middle</property>
             <property name="lines">1</property>
+            <property name="xalign">1</property>
           </object>
           <packing>
             <property name="left_attach">0</property>
@@ -266,12 +272,12 @@
             <property name="valign">center</property>
             <property name="hexpand">False</property>
             <property name="vexpand">False</property>
-            <property name="xalign">1</property>
             <property name="label" translatable="yes">User Agent:</property>
             <property name="use_underline">True</property>
             <property name="mnemonic_widget">entry_user_agent</property>
             <property name="ellipsize">middle</property>
             <property name="lines">1</property>
+            <property name="xalign">1</property>
           </object>
           <packing>
             <property name="left_attach">0</property>
@@ -286,12 +292,12 @@
             <property name="valign">center</property>
             <property name="hexpand">False</property>
             <property name="vexpand">False</property>
-            <property name="xalign">1</property>
             <property name="label" translatable="yes">DNS Prefetching:</property>
             <property name="use_underline">True</property>
             <property name="mnemonic_widget">checkbutton_enable_dns_prefetching</property>
             <property name="ellipsize">middle</property>
             <property name="lines">1</property>
+            <property name="xalign">1</property>
           </object>
           <packing>
             <property name="left_attach">0</property>
@@ -307,12 +313,12 @@
             <property name="valign">center</property>
             <property name="hexpand">False</property>
             <property name="vexpand">False</property>
-            <property name="xalign">1</property>
             <property name="label" translatable="yes">Full Screen:</property>
             <property name="use_underline">True</property>
             <property name="mnemonic_widget">checkbutton_enable_fullscreen</property>
             <property name="ellipsize">middle</property>
             <property name="lines">1</property>
+            <property name="xalign">1</property>
           </object>
           <packing>
             <property name="left_attach">0</property>
@@ -328,12 +334,12 @@
             <property name="valign">center</property>
             <property name="hexpand">False</property>
             <property name="vexpand">False</property>
-            <property name="xalign">1</property>
             <property name="label" translatable="yes">Frame Flattening:</property>
             <property name="use_underline">True</property>
             <property name="mnemonic_widget">checkbutton_enable_frame_flattening</property>
             <property name="ellipsize">middle</property>
             <property name="lines">1</property>
+            <property name="xalign">1</property>
           </object>
           <packing>
             <property name="left_attach">0</property>
@@ -348,12 +354,12 @@
             <property name="valign">center</property>
             <property name="hexpand">False</property>
             <property name="vexpand">False</property>
-            <property name="xalign">1</property>
             <property name="label" translatable="yes">Smooth Scrolling:</property>
             <property name="use_underline">True</property>
             <property name="mnemonic_widget">checkbutton_enable_smooth_scrolling</property>
             <property name="ellipsize">middle</property>
             <property name="lines">1</property>
+            <property name="xalign">1</property>
           </object>
           <packing>
             <property name="left_attach">0</property>
@@ -369,12 +375,12 @@
             <property name="valign">center</property>
             <property name="hexpand">False</property>
             <property name="vexpand">False</property>
-            <property name="xalign">1</property>
             <property name="label" translatable="yes">Auto-load images:</property>
             <property name="use_underline">True</property>
             <property name="mnemonic_widget">checkbutton_auto_load_images</property>
             <property name="ellipsize">middle</property>
             <property name="lines">1</property>
+            <property name="xalign">1</property>
           </object>
           <packing>
             <property name="left_attach">0</property>
@@ -489,6 +495,42 @@
           <packing>
             <property name="left_attach">1</property>
             <property name="top_attach">6</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkCheckButton" id="checkbutton_media_playback_requires_user_gesture">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">False</property>
+            <property name="halign">start</property>
+            <property name="xalign">0</property>
+            <property name="draw_indicator">True</property>
+            <signal name="toggled" handler="checkbutton_toggled_cb" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">7</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label14">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="tooltip_text" translatable="yes">Control wether to automatically load images.</property>
+            <property name="halign">end</property>
+            <property name="valign">center</property>
+            <property name="hexpand">False</property>
+            <property name="vexpand">False</property>
+            <property name="label" translatable="yes">Disable autoplay:</property>
+            <property name="use_underline">True</property>
+            <property name="mnemonic_widget">checkbutton_auto_load_images</property>
+            <property name="ellipsize">middle</property>
+            <property name="lines">1</property>
+            <property name="xalign">1</property>
+          </object>
+          <packing>
+            <property name="left_attach">0</property>
+            <property name="top_attach">7</property>
           </packing>
         </child>
       </object>
